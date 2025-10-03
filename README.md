@@ -46,14 +46,15 @@ Simply run the tool without arguments — it will generate and save the wordlist
 If you want to specify the output file manually:
 
   ./run.sh -o output/custom_wordlist.txt
-           ✅ After generation, the wordlist will be saved automatically in the output/ directory.
+          
+✅ After generation, the wordlist will be saved automatically in the output/ directory.
 
 📊 Example Output
 
 The generated wordlist is designed to mimic how real users create passwords.
 For example:
 
-John1990!
+John1990!\b
 johnDoe@123
 mary_2001
 P@ssw0rd!
