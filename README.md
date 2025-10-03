@@ -1,21 +1,4 @@
-<div align="center">
-
-
-
-
- _    _          __  __ _____   ____   ____  _    _ _      ______      __
-| |  | |   /\   |  \/  |  __ \ / __ \ / __ \| |  | | |    / __ \ \    / /
-| |__| |  /  \  | \  / | |__) | |  | | |  | | |  | | |   | |  | \ \  / / 
-|  __  | / /\ \ | |\/| |  _  /| |  | | |  | | |  | | |   | |  | |\ \/ /  
-| |  | |/ ____ \| |  | | | \ \| |__| | |__| | |__| | |___| |__| | \  /   
-|_|  |_/_/    \_\_|  |_|_|  \_\\____/ \___\_\\____/|______\____/   \/    
-                                                                         
-
-
-
-
-                                                                         
-                                                   🔐 OSINT WordGen v1.0
+<div align="center">                                      🔐 OSINT WordGen v1.0
 
 <h3>🧠 Advanced OSINT-Based Password Wordlist Generator</h3> <p>Generate human-like password wordlists based on real OSINT data — built for professional pentesters and cybersecurity experts.</p>
 
