@@ -1,6 +1,6 @@
 OSINT WordGen v1.0💥
-<h3>🧠 Advanced OSINT-Based Password Wordlist Generator</h3> <p>Generate human-like password wordlists based on real OSINT data — built for professional pentesters and cybersecurity experts.</p>
 
+<h3>🧠 Advanced OSINT-Based Password Wordlist Generator</h3> <p>Generate human-like password wordlists based on real OSINT data — built for professional pentesters and cybersecurity experts.</p>
 
 📌 Overview
 
@@ -81,7 +81,7 @@ This ensures that only the developer or authorized users can run it.
 Only the tool creator knows it.
 
 🛠 Project Structure
-
+"""
 osint-wordgen/
 │
 ├── run.sh                 # Startup script
@@ -92,7 +92,9 @@ osint-wordgen/
 ├── requirements.txt
 ├── LICENSE
 ├── README.md
-└── output/               # Generated wordlists are saved here
+└── output/               # Generated
+"""
+ wordlists are saved here
 
 ⚠️ Legal Disclaimer
 
