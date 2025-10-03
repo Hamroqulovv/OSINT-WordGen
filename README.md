@@ -1,4 +1,4 @@
-<div align="center">                                      🔐 OSINT WordGen v1.0
+                                    🔐 OSINT WordGen v1.0
 
 <h3>🧠 Advanced OSINT-Based Password Wordlist Generator</h3> <p>Generate human-like password wordlists based on real OSINT data — built for professional pentesters and cybersecurity experts.</p>
 
@@ -108,5 +108,3 @@ HAMROQULOV Security Labs
 <div align="center">
 
 💡 "Security through intelligence — OSINT is power." 🔐
-
-</div> ```
