@@ -1,0 +1,6 @@
+pyfiglet==0.8.post1
+termcolor==2.3.0
+colorama==0.4.6
+tqdm==4.66.1
+setuptools>=65.0.0
+python-dotenv

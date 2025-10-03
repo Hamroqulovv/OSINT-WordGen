@@ -1,0 +1,14 @@
+{
+  "first": "Otabek",
+  "last": "Hamroqulov",
+  "phone": "+998901234567",
+  "address": "Tashkent, Uzbekistan",
+  "age": "28",
+  "friends": ["Ali", "Karim"],
+  "company": "MyCompany",
+  "pet": "Kuz",
+  "hobby": "football",
+  "birth_year": "1997",
+  "email": "otabek@example.com",
+  "domain": "example.com"
+}
