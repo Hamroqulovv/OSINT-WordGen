@@ -1,5 +1,4 @@
-OSINT WordGen v1.0
-
+OSINT WordGen v1.0💥
 <h3>🧠 Advanced OSINT-Based Password Wordlist Generator</h3> <p>Generate human-like password wordlists based on real OSINT data — built for professional pentesters and cybersecurity experts.</p>
 
 
@@ -29,7 +28,7 @@ This tool is designed for:
 
 ⚙️ Installation
 Clone the repository and make the tool executable:
-git clone https://github.com/yourusername/osint-wordgen.git
+git clone https://github.com/Hamroqulovv/Osint-wordgen.git
 cd osint-wordgen
 chmod +x run.sh
      
