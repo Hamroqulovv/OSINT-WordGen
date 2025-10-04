@@ -57,21 +57,21 @@ def interactive_collect_inputs():
     print(colored("Provide OSINT inputs. Press Enter to skip any field.", "cyan"))
     data = {}
     try:
-        data["first"] = normalize(input("First name: ").strip())
-        data["last"] = normalize(input("Last name: ").strip())
-        data["middle"] = normalize(input("Middle name (optional): ").strip())
+        data["first"] = normalize(input("Ism (First name): ").strip())
+        data["last"] = normalize(input("Familiya (Last name): ").strip())
+        data["middle"] = normalize(input("Otasining ismi (Middle name): ").strip())
         data["nickname"] = normalize(input("Nickname (optional): ").strip())
         data["phone"] = normalize(input("Phone (e.g. +998901234567): ").strip())
-        data["address"] = normalize(input("Address / City: ").strip())
-        data["age"] = normalize(input("Age (years): ").strip())
-        friends = input("Comma-separated friends names (e.g. Ali,Karim): ").strip()
+        data["address"] = normalize(input("Manzil / Shahar (Address / City): ").strip())
+        data["age"] = normalize(input("Yoshi (yillar)  | Age (years): ").strip())
+        friends = input("Do'stlar ismi (Eng yaqini) (e.g. Ali,Karim): ").strip()
         data["friends"] = [s.strip() for s in friends.split(",")] if friends else []
-        data["company"] = normalize(input("Company / Organization (optional): ").strip())
-        data["pet"] = normalize(input("Pet name (optional): ").strip())
-        data["hobby"] = normalize(input("Hobby (optional): ").strip())
-        data["birth_year"] = normalize(input("Birth year (optional): ").strip())
+        data["company"] = normalize(input("Kompaniya / Tashkilot | (optional): ").strip())
+        data["pet"] = normalize(input("Uy hayvonlari nomi | Pet name (optional): ").strip())
+        data["hobby"] = normalize(input("Xobbi | Hobby (optional): ").strip())
+        data["birth_year"] = normalize(input(" Tug'ilgan yili | Birth year (optional): ").strip())
         data["email"] = normalize(input("Email (optional): ").strip())
-        data["domain"] = normalize(input("Domain (optional): ").strip())
+        data["domain"] = normalize(input("Domen | Domain (optional): ").strip())
     except KeyboardInterrupt:
         print("\n[!] Input interrupted by user.")
         raise
@@ -85,9 +85,9 @@ def parse_args():
     default="output/wordlist.txt",
     help="Output wordlist file (default: output/wordlist.txt)"
 )
-    p.add_argument("-m", "--max-words", type=int, default=DEFAULT_MAX_WORDS, help="Max number of candidates")
-    p.add_argument("--no-spinner", action="store_true", help="Disable startup spinner")
-    p.add_argument("--no-log", action="store_true", help="Do not write session log file")
+    p.add_argument("-m", "--max-words", type=int, default=DEFAULT_MAX_WORDS, help="Nomzodlarning maksimal soni | Max number of candidates")
+    p.add_argument("--no-spinner", action="store_true", help="Boshlash spinnerini o'chirib qo'ying | Disable startup spinner")
+    p.add_argument("--no-log", action="store_true", help="Sessiya jurnali faylini yozmang | Do not write session log file")
     return p.parse_args()
 
 def main():
@@ -112,7 +112,7 @@ def main():
         logger.warning("File logging disabled (--no-log).")
 
     # Confirmation phrase
-    logger.warning("This tool will generate password candidates. Ensure you have WRITTEN authorization.")
+    logger.warning("Ushbu vosita parol nomzodlarini yaratadi. YOZMA avtorizatsiyangiz borligiga ishonch hosil qiling  |  This tool will generate password candidates. Ensure you have WRITTEN authorization.")
     attempts = 0
     confirmed = False
     while attempts < 3:
