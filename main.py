@@ -69,7 +69,7 @@ def interactive_collect_inputs():
         data["company"] = normalize(input("Kompaniya / Tashkilot | (optional): ").strip())
         data["pet"] = normalize(input("Uy hayvonlari nomi | Pet name (optional): ").strip())
         data["hobby"] = normalize(input("Xobbi | Hobby (optional): ").strip())
-        data["birth_year"] = normalize(input(" Tug'ilgan yili | Birth year (optional): ").strip())
+        data["birth_year"] = normalize(input("Tug'ilgan yili | Birth year (optional): ").strip())
         data["email"] = normalize(input("Email (optional): ").strip())
         data["domain"] = normalize(input("Domen | Domain (optional): ").strip())
     except KeyboardInterrupt:
