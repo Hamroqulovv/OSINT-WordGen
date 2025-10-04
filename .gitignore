@@ -30,5 +30,3 @@ build/
 # Temporary
 *.tmp
 *.swp
-
-.env
