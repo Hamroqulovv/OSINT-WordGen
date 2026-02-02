@@ -28,7 +28,7 @@ This tool is designed for:
 
 ⚙️ Installation
 Clone the repository and make the tool executable:
-git clone https://github.com/Hamroqulovv/Osint-wordgen.git
+git clone https://github.com/Hamroqulovv/password-generator.git
 cd osint-wordgen
 chmod +x run.sh
      
