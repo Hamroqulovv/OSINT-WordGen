@@ -1,6 +1,4 @@
-pyfiglet==0.8.post1
-termcolor==2.3.0
-colorama==0.4.6
-tqdm==4.66.1
-setuptools>=65.0.0
-python-dotenv
+# OSINT WordGen v2 — dependencies
+rich>=13.7.0        # themed console, panels, tables, progress bars
+pyfiglet>=1.0.2     # big ASCII banner
+colorama>=0.4.6     # enable ANSI/VT colors on Windows terminals
